@@ -1,2 +1,2 @@
-# weather-data-pipeline-aws
-Automated weather data ingestion and transformation using AWS S3, Glue, and Python
+# 🌦️ Weather Data Pipeline using AWS
+This project automates the ingestion, transformation, and storage of weather data using AWS services like **S3**, **Glue**, and **Python**.
