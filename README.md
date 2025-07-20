@@ -34,6 +34,7 @@ It fetches current weather data from [WeatherAPI.com](https://www.weatherapi.com
 ---
 
 ## 📁 Folder Structure
+```
 weather-data-pipeline-aws/
 │
 ├── .gitignore # Git ignore rules
@@ -43,7 +44,7 @@ weather-data-pipeline-aws/
 ├── weather_data_transform.py # Glue job script (ETL)
 ├── weather_data_<...>.json # Sample fetched weather files
 └── ...
-
+```
 ---
 
 ## 🏁 Run Locally
@@ -86,6 +87,7 @@ Save the transformed data to s3://<your-bucket>/transformed/
 ---
 
 ## ✅ S3 Output Structure
+```
 s3://weather-data-tejaswini/
 ├── raw/
 │   └── weather_data_Pune_2025-07-20_00-41-31.json
@@ -94,7 +96,7 @@ s3://weather-data-tejaswini/
 │   └── weather_data_flattened.json
 ├── logs/
     └── fetch_log.txt
-
+```
 ---
 
 ## 🧪 Sample Log Output
